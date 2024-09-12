@@ -1,18 +1,8 @@
-# Animal Picture API
+# Weather APP
 
 ## Overview
 
-This Node.js application provides a REST API to save and fetch pictures of animals. It uses MongoDB as the database and Docker for containerization.
+This Node.js application provides a REST API to fetch the weather from the city of your choice. 
 
-## REST API Endpoints
 
-### Save Pictures
-
-- **Endpoint:** `/save_pictures`
-- **Method:** `POST`
-- **Request Body:**
-  ```json
-  {
-    "animalType": "dog",
-    "numberOfPictures": 5
-  }
+## Ideally it would use  MongoDB as the database and Docker for containerization to store the saved cutys 
